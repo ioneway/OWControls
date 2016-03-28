@@ -14,6 +14,11 @@
 		4AFEED011CA7DDA50089806D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AFEECFF1CA7DDA50089806D /* LaunchScreen.storyboard */; };
 		4AFEED0C1CA7DE230089806D /* OWKeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFEED0B1CA7DE230089806D /* OWKeyBoardView.swift */; };
 		4AFEED101CA7EE740089806D /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFEED0F1CA7EE740089806D /* UIView+Utils.swift */; };
+		4AFEED561CA8BB5A0089806D /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AFEED521CA8BB5A0089806D /* delete@2x.png */; };
+		4AFEED571CA8BB5A0089806D /* delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AFEED531CA8BB5A0089806D /* delete@3x.png */; };
+		4AFEED581CA8BB5A0089806D /* resign@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AFEED541CA8BB5A0089806D /* resign@2x.png */; };
+		4AFEED591CA8BB5A0089806D /* resign@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AFEED551CA8BB5A0089806D /* resign@3x.png */; };
+		4AFEED5B1CA8BC5F0089806D /* UIAPPlication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFEED5A1CA8BC5F0089806D /* UIAPPlication+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		4AFEED021CA7DDA50089806D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AFEED0B1CA7DE230089806D /* OWKeyBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWKeyBoardView.swift; sourceTree = "<group>"; };
 		4AFEED0F1CA7EE740089806D /* UIView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		4AFEED521CA8BB5A0089806D /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete@2x.png"; sourceTree = "<group>"; };
+		4AFEED531CA8BB5A0089806D /* delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete@3x.png"; sourceTree = "<group>"; };
+		4AFEED541CA8BB5A0089806D /* resign@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resign@2x.png"; sourceTree = "<group>"; };
+		4AFEED551CA8BB5A0089806D /* resign@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resign@3x.png"; sourceTree = "<group>"; };
+		4AFEED5A1CA8BC5F0089806D /* UIAPPlication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAPPlication+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,11 @@
 		4AFEED0A1CA7DE190089806D /* OWKeyBoardView */ = {
 			isa = PBXGroup;
 			children = (
+				4AFEED5A1CA8BC5F0089806D /* UIAPPlication+Extension.swift */,
+				4AFEED521CA8BB5A0089806D /* delete@2x.png */,
+				4AFEED531CA8BB5A0089806D /* delete@3x.png */,
+				4AFEED541CA8BB5A0089806D /* resign@2x.png */,
+				4AFEED551CA8BB5A0089806D /* resign@3x.png */,
 				4AFEED0F1CA7EE740089806D /* UIView+Utils.swift */,
 				4AFEED0B1CA7DE230089806D /* OWKeyBoardView.swift */,
 			);
@@ -136,7 +151,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AFEED581CA8BB5A0089806D /* resign@2x.png in Resources */,
 				4AFEED011CA7DDA50089806D /* LaunchScreen.storyboard in Resources */,
+				4AFEED571CA8BB5A0089806D /* delete@3x.png in Resources */,
+				4AFEED561CA8BB5A0089806D /* delete@2x.png in Resources */,
+				4AFEED591CA8BB5A0089806D /* resign@3x.png in Resources */,
 				4AFEECFE1CA7DDA50089806D /* Assets.xcassets in Resources */,
 				4AFEECFC1CA7DDA50089806D /* Main.storyboard in Resources */,
 			);
@@ -149,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AFEED5B1CA8BC5F0089806D /* UIAPPlication+Extension.swift in Sources */,
 				4AFEECF91CA7DDA40089806D /* ViewController.swift in Sources */,
 				4AFEED0C1CA7DE230089806D /* OWKeyBoardView.swift in Sources */,
 				4AFEED101CA7EE740089806D /* UIView+Utils.swift in Sources */,
@@ -300,6 +320,7 @@
 				4AFEED071CA7DDA50089806D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

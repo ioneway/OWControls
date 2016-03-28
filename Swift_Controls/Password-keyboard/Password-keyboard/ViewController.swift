@@ -8,18 +8,37 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, OWKeyBoardViewDelegate{
 
+    var textField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.textField = UITextField(frame: CGRect(x: 100, y: 100, width: 300, height: 56));
+        textField.backgroundColor = UIColor.redColor();
+        textField.center = self.view.center;
+        self.view .addSubview(textField);
+        
+        let keyboard = OWKeyBoardView(textField: self.textField);
+        textField.inputView = keyboard;
+        keyboard.delegate = self;
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func keyboard(keyboard:OWKeyBoardView, didClickNumKey button: UIButton){
+        
     }
+    
+    func keyboard(keyboard:OWKeyBoardView, didClickDownKey button: UIButton){
+        
+        
+    }
+    
+    func keyboard(keyboard:OWKeyBoardView, didClickDeleteKey button: UIButton){
 
+    }
+    
+    func keyboard(keyboard:OWKeyBoardView, didClickSureKey button: UIButton){
+        
+    }
 
 }
 
